@@ -197,15 +197,7 @@ article{
 .bloco p{
     color: #cfa6ff;
     letter-spacing: 2.5px;
-    float
 }
-
-
-
-
-
-
-
 
 footer{
     top: 95%;
@@ -240,6 +232,43 @@ footer p{
 }
     
     
+}
+
+
+.flex-container{
+    height: 95%;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-bloco{
+    width: 48%;
+    height: 20%;
+    border: 6px #9b45ff solid;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-button{
+    border-radius: 12px;
+    border: 1px black solid;
+    background: #9b45ff;
+    color: white;
+    font-family: cursive;
+    height: 20%;
+}
+
+.flex-button:hover{
+    transition: all .5s;
+    background: #bc83ff;
+    cursor: pointer;
 }
 
 
